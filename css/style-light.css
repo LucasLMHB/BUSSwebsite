@@ -2,7 +2,7 @@
 Theme Name:  Rindu
 Theme URI:
 Author: DevelPixel
-Author URI: 
+Author URI:
 Description: The 2014 theme for Bootstrap takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -130,8 +130,8 @@ BLUE: #B32E2E;
     font-weight: 700;
     line-height: 25px;
 }
-/* 
-    BUTTON  
+/*
+    BUTTON
 */
  .btn {
     border-radius: 3px;
@@ -204,7 +204,7 @@ html,body{
     height: 100%;
 }
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', Roboto, Helvetica, sans-serif;
     color: #1d2023;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -660,11 +660,11 @@ p {
 .title-break {
     border-top: 3px solid #CCC;
     width: 80px;
-    margin: 40px auto 100px auto;
+    margin: 40px auto 40px auto;
     display: inline-block;
 }
 /*
-    SECTION FILL    
+    SECTION FILL
 */
  .section-fill {
 }
@@ -1600,6 +1600,8 @@ footer-icon {
 }
 .panel-title {
     font-size: 16px;
+    text-align: left;
+    margin-top: 0px;
     color: inherit;
     font-weight: 700;
     display: block;
@@ -1614,6 +1616,7 @@ footer-icon {
 }
 .panel-body {
     background: #FFF;
+    text-align: left;
 }
 .panel-group .panel-heading+.panel-collapse .panel-body {
     border-top: 0;
